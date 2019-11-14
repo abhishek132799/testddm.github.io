@@ -1,0 +1,282 @@
+*,body,html {margin:0;padding:0;box-sizing:border-box;}
+
+ul {
+	list-style:none;
+}
+
+img {vertical-align: bottom;}
+
+a {text-decoration:none;}
+
+@font-face {
+	font-family:proximareg;
+	src: url(../fonts/ProximaNova-Regular.otf) format("opentype");
+}
+
+
+@font-face {
+	font-family:proximabold;
+	src: url(../fonts/Proxima-Nov-Bold.otf) format("opentype");
+}
+
+/*****************************style below********************/
+
+
+.wrapper {
+	max-width:100
+}
+
+.dropdown {
+	position: relative;
+	display:block;
+}
+
+.test {
+	border:0.4px solid #343a40;
+	display:none;
+	top:37px;
+}
+
+.test a {
+	border:none;
+}
+
+.test span:hover a {
+	background-color:#343a40;
+	color:white
+}
+
+.dropdown:hover>.dropdown-menu {
+	display:block;
+
+}
+
+.content-para {
+	padding:15px 0px
+}
+
+
+
+.custom {
+  font-family:proximareg;
+  margin:0px -15px;
+  font-size:16px
+  
+}
+
+
+.custom li {
+	padding:0px 15px !important;
+	
+}
+
+
+.back-image {
+	background-image: url('../img/main.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	max-width:100%;
+	height:650px;
+
+}
+
+
+.button-con-1 {
+	padding-top:30px
+}
+
+
+.display-txt {
+	font-family:proximabold;
+	text-align:center;
+	padding:180px 0px;
+	color:#ffff
+	
+}
+
+
+
+.display-txt h2 {
+    font-family:proximareg;
+}
+
+.inner-con a {
+    background-color:transparent;
+    border:0.5px solid #ffff;
+    padding:10px 40px;
+    border-radius:40px;
+    color:#ffff;
+    font-weight:bold;
+}
+
+
+.button-con {
+	margin-bottom:35px
+}
+
+.inner-conatiner {
+	text-align:center;
+	padding:20px 0px
+}
+
+
+.inner-conatiner p {
+ text-align:justify;
+}
+
+.different-button a {
+  background-color:#b60084;
+  font-weight:lighter;
+}
+
+
+.different-button {
+	padding-top:40px
+}
+
+
+.row-1 {
+	max-width:100%;
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+
+
+.coll {
+	border:2px solid grey;
+	border-radius:5px;
+	 background-color:lightgrey;
+	
+}
+
+
+
+
+.inner-conatiner {
+padding-top:75px
+}
+
+/**********************cards code below starts******/
+
+
+.bg-colors {
+	background-color:lightgrey;
+	font-family:proximareg
+}
+
+
+.icon-con img {
+  padding:10px 0px
+}
+
+
+/**********************mobile**************/
+
+@media (max-width: 576px) {
+  .nav-item  {
+     text-decoration:none !important;
+}
+
+
+.inner-con a {
+	text-decoration:none;
+}
+
+.row-1 {
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+
+	
+}
+
+.coll {
+   width:100% !important;
+   text-align:center;
+   
+   
+
+}
+
+
+
+}
+
+
+
+@media (min-width: 576px) {
+  .nav-item  {
+     text-decoration:none !important;
+}
+
+
+.inner-con a {
+	text-decoration:none;
+}
+
+
+
+
+
+}
+
+@media (min-width: 768px) {
+   .nav-item  {
+     text-decoration:none !important;
+}
+
+.inner-con a {
+	text-decoration:none;
+}
+
+
+
+
+}
+
+@media (min-width: 992px) {
+  .m-con ul .nav-item:hover {
+     text-decoration:underline !important;
+}
+
+.inner-con:hover a {
+	background-color:white;
+	color:#343a40;
+	text-decoration:none;
+
+}
+
+.respose {
+
+}
+
+
+
+
+}
+
+
+@media (min-width: 1200px) {
+    .inner-con:hover a {
+	background-color:white;
+	color:#343a40;
+	text-decoration:none;
+	display:inline;
+}
+
+.know-more:hover a {
+	background-color:#49007c;
+	color:#ffff
+}
+
+
+
+
+
+
+
+
+}
