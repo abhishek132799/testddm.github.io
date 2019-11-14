@@ -163,13 +163,61 @@ padding-top:75px
 
 .bg-colors {
 	background-color:lightgrey;
-	font-family:proximareg
+	font-family:proximareg;
+
 }
 
+.content-para {
+	font-size:18px
+}
+
+.backgound-colours {
+
+}
 
 .icon-con img {
   padding:10px 0px
 }
+
+/**************cards ends above************/
+
+/*************about us sectioction is starts below****/
+
+
+.bg-color-about {
+	background-image: url('../img/about-us-bg.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	max-width:100%;
+	height:400px;
+	background-image:#2a2d34;
+	text-align:center;
+	padding:25px 0px;
+	font-size:18px;
+	font-family:proximareg;
+	color:white;
+	align-items: center;
+	display:flex;
+
+
+}
+
+
+
+.bg-color-about h3 {
+    font-family:proximabold;
+    padding:50px 0px
+} 
+
+
+.about-content p {
+	text-align:justify;
+}
+
+.about-content a {
+   color:#3c00ff;
+}
+
 
 
 /**********************mobile**************/
@@ -235,6 +283,8 @@ padding-top:75px
 
 
 
+
+
 }
 
 @media (min-width: 992px) {
@@ -248,8 +298,6 @@ padding-top:75px
 	text-decoration:none;
 
 }
-
-
 
 
 
@@ -269,7 +317,6 @@ padding-top:75px
 	background-color:#49007c;
 	color:#ffff
 }
-
 
 
 
